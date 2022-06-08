@@ -1,0 +1,23 @@
+.y-center-container {
+    position: relative;
+}
+.y-center-container .y-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.x-center {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.y-center-container .y-center.x-center {
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.tight {
+    width: fit-content;
+    width: -moz-fit-content;
+}

@@ -1,0 +1,12 @@
+body.light {
+    background-color: #eee;
+}
+body.light .has-text {
+    color: black;
+}
+body.light .dev-name {
+    color:darkcyan;
+}
+body.light .top-bar {
+    background-color: rgba(128,128,128,0.5);
+}
