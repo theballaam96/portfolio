@@ -21,3 +21,15 @@
     width: fit-content;
     width: -moz-fit-content;
 }
+.hide {
+    display: none;
+}
+a:link:not(.ignore-link-style) {
+    color: aqua;
+}
+a:visited:not(.ignore-link-style) {
+    color: magenta;
+}
+a.ignore-link-style {
+    text-decoration: none;
+}

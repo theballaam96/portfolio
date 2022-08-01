@@ -7,6 +7,34 @@ body.light .has-text {
 body.light .dev-name {
     color:darkcyan;
 }
+body.light .dark-mode-button {
+    /* background-color: #eee;
+    border: 2px solid #222; */
+}
 body.light .top-bar {
     background-color: rgba(128,128,128,0.5);
+}
+body.light .top-bar a {
+    color: black;
+}
+body.light .hamburger.container {
+    border-color: black;
+}
+body.light .hamburger.bar {
+    background-color: #333;
+}
+body.light .hamburger.item {
+    background-color: #aaa;
+}
+body.light a:link:not(div.top-bar a):not(.ignore-link-style) {
+    color: darkblue;
+}
+body.light a:visited:not(div.top-bar a):not(.ignore-link-style) {
+    color: purple;
+}
+body.light .carousel.prev, body.light .carousel.next {
+    color: #222;
+}
+body.light .home.container {
+    border-color: #222;
 }

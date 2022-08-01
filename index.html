@@ -1,38 +1,58 @@
 <html>
     <head>
-        <title>Tom Ballaam - Developer</title>
+        <title>Home | Tom Ballaam Portfolio</title>
         <link rel="stylesheet" href="style/base.css">
         <link rel="stylesheet" href="style/dark.css">
         <link rel="stylesheet" href="style/light.css">
-        <style>
-            
-        </style>
+        <link rel="stylesheet" href="style/home.css">
+        <link rel="stylesheet" href="style/toggle.css">
+        <meta name="viewport" content="width=device-width" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
-        <div class="top-bar">
-            <div class="top-bar-organizer tight x-center">
-                <div class="top-item has-text y-center-container">
-                    <div class="x-center y-center">
-                        About
-                    </div>
-                </div>
-                <div class="top-item has-text y-center-container">
-                    <div class="y-center">
-                        Projects
-                    </div>
-                </div>
-                <div class="top-item has-text y-center-container">
-                    <div class="top-item-text y-center">
-                        Contact
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="nav-bar"></div>
         <div class="y-center-container interest-text">
-            <div class="has-text y-center x-center">
-                Hello, I'm <span class="dev-name">Tom Ballaam</span><br>
-                I'm a front-end web developer
+            <div class="has-text y-center x-center" style="width:75%">
+                <div class="home splitter">
+                    <div class="home container">
+                        <div class="has-text home hello">Hello</div>
+                        My name is Tom Ballaam, I am a front-end web developer based in McKinney, TX.
+                        I have developed the front-end for multiple websites in addition to learning additional languages to expand my capabilities.
+                        I started learning how to code in 2016. Now I have experience in over 10 languages.
+                        <br><br>
+                        Feel free to request my resume here: <a href="mailto:theballaam96@gmail.com">theballaam96@gmail.com</a>
+                    </div>
+                    <div class="home project-preview">
+                        <div class="home project-head has-text">
+                            Example Projects
+                        </div>
+                        <div class="home project-item">
+                            <a href="./projects.html#sssv" class="ignore-link-style has-text">
+                                SSSV Decomp Statistics Page
+                            </a>
+                        </div>
+                        <div class="home project-item">
+                            <a href="./projects.html#positionwizard" class="ignore-link-style has-text">
+                                Experian Position Wizard
+                            </a>
+                        </div>
+                        <div class="home project-item">
+                            <a href="./projects.html#randomizer" class="ignore-link-style has-text">
+                                Donkey Kong 64 Randomizer
+                            </a>
+                        </div>
+                        <div class="home project-item">
+                            <a href="./projects.html#practicerom" class="ignore-link-style has-text">
+                                Donkey Kong 64 Practice ROM
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div id="light-mode" class="dark-mode-button"></div>
+        <script src="script/dark-control.js"></script>
+        <script src="script/import-externals.js"></script>
+        <script src="script/hamburger.js"></script>
     </body>
 </html>

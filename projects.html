@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Projects | Tom Ballaam Portfolio</title>
+        <link rel="stylesheet" href="style/base.css">
+        <link rel="stylesheet" href="style/dark.css">
+        <link rel="stylesheet" href="style/light.css">
+        <link rel="stylesheet" href="style/carousel.css">
+        <link rel="stylesheet" href="style/toggle.css">
+        <meta name="viewport" content="width=device-width" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="nav-bar"></div>
+        <div class="y-center-container interest-text">
+            <div class="y-center x-center" style="width:90%">
+                <div class="carousel container">
+                    <div class="carousel prev y-center-container">
+                        <a class="carousel prev y-center" onclick="carouselChange(-1)">&#10094;</a>
+                    </div>
+                    <div class="carousel item fade" prop="sssv">
+                        <a href="https://sssv.deco.mp/">
+                            <img src="assets/sssv-screenshot.png" alt="SSSV Decomp Homepage" class="carousel image">
+                        </a>
+                    </div>
+                    <div class="carousel item fade" prop="yinglinglaw">
+                        <a href="http://yinglinglaw.net/">
+                            <img src="assets/yl-screenshot.png" alt="Yingling Law Homepage" class="carousel image">
+                        </a>
+                    </div>
+                    <div class="carousel item fade" prop="positionwizard">
+                        <a href="">
+                            <img src="https://assets.experiancs.com/images/logo-experian.svg?hs=2c108564c86d0b65336076616b44b886" alt="Experian Position Wizard" class="carousel image">
+                        </a>
+                    </div>
+                    <div class="carousel item fade" prop="practicerom">
+                        <a href="">
+                            <img src="assets/practicerom.png" alt="DK64 Practice ROM Version Page" class="carousel image">
+                        </a>
+                    </div>
+                    <div class="carousel item fade" prop="randomizer">
+                        <a href="">
+                            <img src="assets/rando.png" alt="DK64 Randomizer Homepage" class="carousel image">
+                        </a>
+                    </div>
+                    <div class="carousel item fade" prop="scripthawk">
+                        <a href="">
+                            <img src="assets/shawk.png" alt="ScriptHawk used in conjunction with Donkey Kong 64" class="carousel image">
+                        </a>
+                    </div>
+                    <div class="carousel next y-center-container">
+                        <a class="carousel next y-center" onclick="carouselChange(1)">&#10095;</a>
+                    </div>
+                </div>
+                <div class="carousel dots">
+                    <span class="carousel dot" onclick="carouselSet(1)"></span>
+                    <span class="carousel dot" onclick="carouselSet(2)"></span>
+                    <span class="carousel dot" onclick="carouselSet(3)"></span>
+                    <span class="carousel dot" onclick="carouselSet(4)"></span>
+                    <span class="carousel dot" onclick="carouselSet(5)"></span>
+                    <span class="carousel dot" onclick="carouselSet(6)"></span>
+                </div>
+                <div class="carousel descs">
+                    <div class="carousel desc has-text">
+                        <div class="header">'Silicon Space Station Valley' Decompilation Homepage</div>
+                        <div class="desc-text">
+                            <p>Date: Feb 2021 | Project Link: <a href="https://sssv.deco.mp/">SSSV Decomp</a><br>
+                                Languages: HTML5, CSS3, SCSS, Javascript
+                            </p>
+                            <p>
+                                The client for this project wanted a homepage which tracked the progress of the decompilation of the Nintendo 64 title "Silicon Space Station Valley" (SSSV)
+                                which remained faithful to the design of the menu screen on the Nintendo 64. The comparison image supplied by the client to try and match is as follows: <a href="assets/sssv-ingame.png">Link</a>
+                            </p>
+                            <p>
+                                The main challenges surrounding the website project here revolved around recreating the rainbow effect on the bottom bar and the donut chart which
+                                represents completion of various segments of the decompilation. Hovering over a donut chart segment will change the information displayed on the right-hand side to match the various
+                                segments, with the data being pulled by a JSON file that is generated upon progress being made on the decompilation project. The decision to represent the information this way was also done to mimic the in-game aesthetics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel desc has-text">
+                        <div class="header">Yingling Law PLLC</div>
+                        <div class="desc-text">
+                            <p>Date: Jun 2020 | Project Link: <a href="http://yinglinglaw.net/">Yingling Law</a><br>
+                                Lanugages: HTML5, CSS3, Javascript
+                            </p>
+                            <p>
+                                The client for this project wanted a website to represent their new legal practice that they were setting up. The project involved regular liaising with the client
+                                to perfect the website to their liking as well as setting up an email service for them to use a custom domain tailored to their new business.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel desc has-text">
+                        <div class="header">Experian Position Wizard</div>
+                        <div class="desc-text">
+                            <p>Date: Dec 2020 - Mar 2021 | Project cannot be previewed due to Experian ownership rights<br>
+                                Languages: HTML5, CSS3, SCSS, NPM, Javascript, VueJS, Git
+                            </p>
+                            <p>
+                                Whilst working for Experian, we were in the process of updating old process methods to more modern technologies. This included a position creation wizard which
+                                was originally coded by another employee as an Excel VB macro that would send our sector of Experian an email containing a CSV of the response.
+                                The main problem with this at the time is version control, as users of the old wizard would have outdated versions of the Excel document and therefore
+                                requests may be out of date.
+                            </p>
+                            <p>
+                                As such, I created a website which would respond to a daily feed from Oracle so that users would always have the most up-to-date data along with the most up-to-date
+                                procedure for position creation. The other major benefit of this over the old method was the inclusion of adding all requests to a database. This meant that a unique webpage
+                                would be created for each request which we could work with a lot easier than a CSV.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel desc has-text">
+                        <div class="header">Donkey Kong 64 Practice ROM</div>
+                        <div class="desc-text">
+                            <p>Date: Jan 2021 - Ongoing | 
+                                Project Link: <a href="https://dk64practicerom.com/">DK64 Practice ROM</a> | 
+                                GitHub: <a href="https://github.dk64practicerom.com/">GitHub</a><br>
+                                Languages: MIPS Assembler, C, Python, HTML5, CSS3, Javascript, Git
+                            </p>
+                            <p>
+                                Upon similar modifications being made for other Nintendo 64 titles, notably Banjo-Kazooie and Banjo-Tooie, a client approached me about making a 
+                                Practice ROM for the Nintendo 64 title "Donkey Kong 64". This modification helps with users learning how to speedrun Donkey Kong 64 as well as 
+                                assisting with glitch hunting and routing. The entire Practice ROM is coded mostly with C, but with some small amounts of MIPS assembler 
+                                (the assembly language that is processed by the Nintendo 64's processor). This project was my first time coding with python, C and MIPS ASM.
+                            </p>
+                            <p>
+                                On top of making the Practice ROM, I also made a website that would accompany the Practice ROM to serve as documentation on past versions, installation 
+                                methods and features.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel desc has-text">
+                        <div class="header">Donkey Kong 64 Randomizer</div>
+                        <div class="desc-text">
+                            <p>Date: Jan 2019 - Ongoing | 
+                                Project Link: <a href="https://dk64randomizer.com/">DK64 Randomizer</a> | 
+                                GitHub: <a href="https://github.com/2dos/DK64-Randomizer/">GitHub</a><br>
+                                Languages: MIPS Assembler, C, Python, HTML5, CSS3, Javascript, LUA, Git, Jinja
+                            </p>
+                            <p>
+                                Donkey Kong 64 Randomizer is a website that modifies a ROM of the Nintendo 64 title "Donkey Kong 64" to randomize gameplay elements. This project involved 
+                                collaboration between myself and 11 other developers who had varying specializations with regard to coding. The role I undertook was making the base 
+                                modification that the website would use to create a randomized experience. However, I also undertook roles with helping build the website and create python 
+                                code to randomize various game elements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel desc has-text">
+                        <div class="header">ScriptHawk</div>
+                        <div class="desc-text">
+                            <p>Date: Jan 2017 - Ongoing | 
+                                Project Link: <a href="https://github.com/Isotarge/ScriptHawk">ScriptHawk</a><br>
+                                Languages: LUA, Git
+                            </p>
+                            <p>
+                                ScriptHawk is a tool for the Nintendo 64 emulator "BizHawk" that gives the player power to view in-game variables with additional context provided 
+                                to them as well as perform administrative-like tasks on the game to bypass various restrictions for the purpose of glitch hunting. BizHawk enables the ability 
+                                to run LUA scripts and read & write memory values. I was brought onto the ScriptHawk developer team in 2017 originally to assist with flag documentation, 
+                                but after a couple months, I started to assist with creating new functionality to the LUA script.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="light-mode" class="dark-mode-button"></div>
+        <script src="script/dark-control.js"></script>
+        <script src="script/import-externals.js"></script>
+        <script src="script/carousel.js"></script>
+        <script src="script/hamburger.js"></script>
+    </body>
+</html>
